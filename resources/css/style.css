@@ -284,13 +284,14 @@ h3 {
 
 .courses-box {
   width: 30%;
-  padding: 1rem 1rem 1.5rem 1rem;
-  height: auto;
+  margin: 1rem 1rem 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .courses img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .courses-text {
@@ -300,9 +301,7 @@ h3 {
   flex-direction: column;
 }
 
-.courses-img {
-  display: flex;
-}
+
 
 /* Thesis section */
 
@@ -382,7 +381,7 @@ footer span {
 
 /* ----- RESPONSIVE DESIGN FOR MOBILE DEVICES ----- */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 620px) {
 
   html {
     padding: 0;
